@@ -40,7 +40,7 @@ if($usuario->validar($user, $pass)){
     <center>
     <body background="imagen/f3.png" >
         <STYLE> 
-BODY { background: url(imagen/cachorro.JPEG)} 
+BODY { background: url(imagen/cachorro.JPG)} 
 </STYLE>
      
          <form method="POST">
