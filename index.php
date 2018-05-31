@@ -1,5 +1,5 @@
 <?php
-/*include 'conexion.php';
+include 'conexion.php';
 include "usuario.php";
 if (isset($_POST['usuario'])&& isset($_POST['pass'])){
 
@@ -29,7 +29,7 @@ if($usuario->validar($user, $pass)){
 } }else 
     echo "Datos incorrectos verefique nuevamente y no intente meter inyecciones sql ya que esta protejida";
 
-  }*/
+  }
 ?>
 
 <html>
