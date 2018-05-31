@@ -13,7 +13,7 @@ class conexion { private $host;
     private $conn;
     function __construct($host, $usr, $pwd, $db) {
         $this->host = $host;
-        $this->usr = $usr;
+        $this->usr = $ust;
         $this->pwd = $pwd;
         $this->db = $db;
     }
