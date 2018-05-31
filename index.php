@@ -8,7 +8,7 @@ $pass = $_POST['pass'];
 $pass = md5($pass);
 
 
-$usuario =new usuario ();
+/*$usuario =new usuario ();
 if($usuario->validar($user, $pass)){
     if($user=="admin"){
     header("location:admin.php");
@@ -28,7 +28,7 @@ if($usuario->validar($user, $pass)){
     echo "Usuario INVALIDO, verefinque los datos.";
 } }else 
     echo "Datos incorrectos verefique nuevamente y no intente meter inyecciones sql ya que esta protejida";
-
+*/
   }
 ?>
 
