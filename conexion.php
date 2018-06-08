@@ -9,7 +9,7 @@ class conexion { private $host;
     private $conn;
     function __construct($host, $usr, $pwd, $db) {
         $this->host = "localhost";
-        $this->usr = "chero";
+        $this->usr = "rosa";
         $this->pwd = "root";
         $this->db = "tienda";
     }
