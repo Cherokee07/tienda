@@ -9,9 +9,9 @@ class conexion { private $host;
     private $conn;
     function __construct($host, $usr, $pwd, $db) {
         $this->host = $host;
-        $this->usr = $rosa;
-        $this->pwd = $pws;
-        $this->db = $tienda;
+        $this->usr = "root";
+        $this->pwd = "root";
+        $this->db = "tienda";
     }
     public function conectar(){
         $this->conn = mysqli_connect($this->host, $this->usr, $this->pwd, $this->db);
