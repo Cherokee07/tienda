@@ -10,7 +10,7 @@ class conexion { private $host;
     function __construct($host, $usr, $pwd, $db) {
         $this->host = $host;
         $this->usr = $rosa;
-        $this->pwd = $rosa;
+        $this->pwd = $pws;
         $this->db = $tienda;
     }
     public function conectar(){
