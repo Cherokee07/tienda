@@ -9,8 +9,8 @@ class conexion { private $host;
     private $conn;
     function __construct($host, $usr, $pwd, $db) {
         $this->host = $host;
-        $this->usr = $root;
-        $this->pwd = $pwd;
+        $this->usr = $rosa;
+        $this->pwd = $rosa;
         $this->db = $tienda;
     }
     public function conectar(){
