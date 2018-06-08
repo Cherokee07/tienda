@@ -4,7 +4,7 @@
     // Ejemplo realizado por Oscar Abad Folgueira: http://www.oscarabadfolgueira.com y https://www.dinapyme.com
     
     // Datos de la base de datos
-    $usuario = "";
+    $usuario = "rosa";
     $password = "";
     $servidor = "localhost";
     $basededatos = "tienda";
