@@ -8,8 +8,8 @@ class conexion { private $host;
     private $db;
     private $conn;
     function __construct($host, $usr, $pwd, $db) {
-        $this->host = "35.231.97.12";
-        $this->usr = "root";
+        $this->host = "localhost";
+        $this->usr = "chero";
         $this->pwd = "root";
         $this->db = "tienda";
     }
